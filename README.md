@@ -1,20 +1,63 @@
+
 # 🤖 Can Large Language Models Understand and Express Human Emotions?
 
+Welcome to a mini research project exploring how large language models (LLMs) respond to emotionally nuanced human prompts.
+
+This project was created by **YugenixZ** as part of a personal investigation into the intersection of:
+- Artificial Intelligence
+- Emotion, empathy, and psychological expression
+- Human-centered computing and communication design
+
 ## 🎯 Project Goal
-This project investigates how different large language models (LLMs) such as GPT-4, Claude, and Gemini respond to emotionally charged human prompts — such as encouragement, regret, empathy, or confrontation.
+To evaluate how different LLMs (GPT-4, Claude, Gemini) handle emotionally charged prompts, and compare their tone, empathy, and response patterns across diverse situations.
 
-By comparing their outputs across five emotional/attitudinal scenarios, we explore:
-- Can LLMs detect and reflect emotional nuance?
-- How do they differ in tone, stance, or emotional vocabulary?
-- Do they simulate empathy or remain neutral and robotic?
+## 📂 Project Structure
 
-## 📂 Structure
-- `prompts/`: Contains 5 emotion-driven scenarios
-- `results/`: Raw output from GPT-4, Claude, and Gemini
-- `analysis/`: Comparative notes, observations, and reflections
+```
+llm-human-emotion/
+├── README.md               ← Project overview and structure
+├── prompts/
+│   └── scenarios.md        ← 5 emotional prompt templates
+├── results/
+│   ├── gpt4.txt
+│   ├── claude.txt
+│   └── gemini.txt          ← Raw model outputs for each prompt
+├── analysis/
+│   └── comparison_notes.md ← Insights and observations across models
+```
 
-## 🧠 Questions
-- What do their differences reveal about model alignment?
-- Is it possible for an AI to express emotion, or merely mimic tone?
+## 💬 Prompt Scenarios
+The 5 prompts simulate realistic emotional situations:
+1. Encouragement after failure
+2. Expressing regret
+3. Handling conflict calmly
+4. Coping with self-doubt
+5. Fear of disappointing others
 
-This project is part of my independent exploration into AI and human expression.
+## 📊 What We Analyze
+- Does the model recognize the emotional tone of the prompt?
+- How empathetic or supportive is the language?
+- Are there biases, patterns, or tendencies unique to each model?
+- Is the output helpful, distant, poetic, factual, or evasive?
+
+## 🧠 Insights So Far
+- GPT-4 tends to be expressive and validating.
+- Claude prefers balanced, neutral support.
+- Gemini shows hesitation with emotional commitment in some scenarios.
+
+(For details, see `/analysis/comparison_notes.md`)
+
+## 📌 Why This Matters
+In a world where LLMs increasingly serve as personal assistants, companions, and co-creators, understanding how they handle emotional context is crucial to:
+- Prevent harm through misinterpretation
+- Design for supportive AI systems
+- Push toward emotionally aware machine learning
+
+## 🔗 Author
+Made by [**YugenixZ**](https://github.com/YugenixZ)  
+Feel free to explore, fork, or contribute ideas.  
+This work is an early step toward building research interest in **AI × emotion × ethics × expression**.
+
+---
+
+*This project may evolve into a research proposal for a PhD program in Human-Centered Computing.*
